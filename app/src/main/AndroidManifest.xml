@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.health.READ_STEPS" />
-    <uses-permission android:name="android.permission.health.READ_SLEEP" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <queries>
@@ -19,7 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyHealthHub"
-        android:usesCleartextTraffic="true">
+        >
 
         <activity
             android:name=".MainActivity"
@@ -33,6 +32,8 @@
                 <action android:name="androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".DashboardActivity" />
 
         <activity-alias
             android:name="ViewPermissionUsageActivity"

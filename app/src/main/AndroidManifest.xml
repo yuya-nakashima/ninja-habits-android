@@ -27,8 +27,12 @@
         android:theme="@style/Theme.MyHealthHub"
         >
 
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".DashboardActivity" />
+
         <activity
-            android:name=".MainActivity"
+            android:name=".ReflectionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,8 +44,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".ReflectionActivity" />
         <activity android:name=".WishListActivity" />
 
         <activity-alias

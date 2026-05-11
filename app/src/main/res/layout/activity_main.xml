@@ -20,11 +20,35 @@
         android:layout_height="wrap_content"
         android:text="データを同期する" />
 
+    <TextView
+        android:id="@+id/lastSyncText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:textColor="#888888"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="8dp" />
+
     <Button
         android:id="@+id/dashboardButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="ダッシュボードを見る" />
+
+    <Button
+        android:id="@+id/reflectionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="振り返りを書く" />
+
+    <Button
+        android:id="@+id/wishListButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="やりたいことリスト" />
 
 </LinearLayout>

@@ -14,12 +14,6 @@
         android:textSize="18sp"
         android:layout_marginBottom="20dp" />
 
-    <Button
-        android:id="@+id/syncButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="データを同期する" />
-
     <TextView
         android:id="@+id/lastSyncText"
         android:layout_width="wrap_content"
@@ -27,7 +21,6 @@
         android:text=""
         android:textSize="12sp"
         android:textColor="#888888"
-        android:layout_marginTop="6dp"
         android:layout_marginBottom="8dp" />
 
     <Button

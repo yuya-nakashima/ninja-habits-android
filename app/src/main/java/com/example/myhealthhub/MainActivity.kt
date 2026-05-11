@@ -57,17 +57,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        findViewById<Button>(R.id.syncButton).setOnClickListener {
-            lifecycleScope.launch {
-                val granted = healthConnectClient.permissionController.getGrantedPermissions()
-                if (granted.containsAll(syncManager.permissions)) {
-                    runSync(statusText, lastSyncText)
-                } else {
-                    requestPermissionLauncher.launch(syncManager.permissions)
-                }
-            }
-        }
-
         findViewById<Button>(R.id.dashboardButton).setOnClickListener {
             startActivity(Intent(this, DashboardActivity::class.java))
         }

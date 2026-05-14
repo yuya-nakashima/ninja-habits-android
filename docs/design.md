@@ -1,8 +1,8 @@
-# body-data-lab-android 設計書
+# ninja-habits-android 設計書
 
 ## 概要
 
-Pixel 8a + Pixel Watch 4 の歩数データを Health Connect 経由で取得し、バックエンドへ送信する Android アプリ。
+Pixel 8a + Pixel Watch 4 の歩数データを Health Connect 経由で取得し、バックエンドへ送信する NinjaHabits Android アプリ。
 
 ---
 

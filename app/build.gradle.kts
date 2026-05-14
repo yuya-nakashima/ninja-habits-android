@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myhealthhub"
+    namespace = "com.ninjahabits.app"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.myhealthhub"
+        applicationId = "com.ninjahabits.app"
         minSdk = 35
         targetSdk = 35
         versionCode = 1

@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MyHealthHub"
+rootProject.name = "ninja-habits-android"
 include(":app")

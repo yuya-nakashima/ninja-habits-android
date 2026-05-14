@@ -1,4 +1,4 @@
-package com.example.myhealthhub
+package com.ninjahabits.app
 
 import android.util.Log
 import androidx.health.connect.client.HealthConnectClient

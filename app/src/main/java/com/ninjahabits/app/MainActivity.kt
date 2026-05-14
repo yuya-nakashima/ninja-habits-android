@@ -1,4 +1,4 @@
-package com.example.myhealthhub
+package com.ninjahabits.app
 
 import android.content.Context
 import android.content.Intent

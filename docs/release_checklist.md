@@ -12,7 +12,7 @@
 
 - [ ] リリースビルドの署名設定（Keystore の作成）
 - [ ] `applicationId` を `com.example.myhealthhub` から正式なものに変更
-- [ ] アプリ名・アイコンの確認
+- [ ] `NinjaHabits` 名義でアプリ名・アイコンを確認
 - [ ] minSdk の見直し（現状 35 = Android 15 以上のみ対象）
 
 ## 参考

@@ -1,4 +1,4 @@
-package com.example.myhealthhub
+package com.ninjahabits.app
 
 import android.os.Bundle
 import android.webkit.WebResourceError

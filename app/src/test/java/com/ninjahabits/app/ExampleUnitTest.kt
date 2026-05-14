@@ -1,4 +1,4 @@
-package com.example.myhealthhub
+package com.ninjahabits.app
 
 import org.junit.Test
 

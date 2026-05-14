@@ -1,8 +1,8 @@
-# body-data-lab-android — Claude Code Instructions
+# ninja-habits-android — Claude Code Instructions
 
 ## プロジェクト概要
 
-body-data-lab バックエンドの Android クライアント。WebView で `/ui/*` を表示し、ネイティブ機能（Health Connect）でデータを取得して API に送信する。
+NinjaHabits Android クライアント。現状は `body-data-lab` バックエンドの WebUI を WebView で表示し、ネイティブ機能（Health Connect）でデータを取得して API に送信する。
 
 ## 技術スタック
 
@@ -16,7 +16,7 @@ body-data-lab バックエンドの Android クライアント。WebView で `/u
 
 ```
 app/src/main/
-  java/com/example/myhealthhub/
+  java/com/ninjahabits/app/
     MainActivity.kt       # トップ画面・Health Connect同期・ナビゲーション
     DashboardActivity.kt  # /ui/steps を WebView 表示
     ReflectionActivity.kt # /ui/reflections を WebView 表示
@@ -28,7 +28,7 @@ app/src/main/
 
 ## 重要な依存関係
 
-**body-data-lab と密結合。** バックエンドの `/ui/*` や API エンドポイントに依存している。
+**現状の `body-data-lab` バックエンドと密結合。** バックエンドの `/ui/*` や API エンドポイントに依存している。
 - バックエンドに画面を追加したら、`MainActivity` にボタンを追加し対応する `Activity` を作成する
 - `AndroidManifest.xml` への Activity 登録も忘れずに
 

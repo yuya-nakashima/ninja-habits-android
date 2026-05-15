@@ -63,6 +63,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.reflectionButton).setOnClickListener {
             startActivity(Intent(this, ReflectionActivity::class.java))
         }
+        findViewById<Button>(R.id.dailyGoalsButton).setOnClickListener {
+            startActivity(Intent(this, DailyGoalsActivity::class.java))
+        }
         findViewById<Button>(R.id.wishListButton).setOnClickListener {
             startActivity(Intent(this, WishListActivity::class.java))
         }

@@ -44,6 +44,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".DailyGoalsActivity" />
+
         <activity android:name=".WishListActivity" />
 
         <activity-alias
